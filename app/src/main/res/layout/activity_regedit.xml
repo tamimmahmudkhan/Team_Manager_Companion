@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegeditActivity" >
+
+    <EditText
+        android:id="@+id/fname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/dob_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/position_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Position"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/work_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Work Days"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/absent_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Absent Days"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/team_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Team"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Team:"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/project_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Project"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
